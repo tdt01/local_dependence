@@ -1,8 +1,8 @@
 # local_dependence
-This directory contains some materials for a submitted article to Biostatistics journal
-
-Since the original data is not available, we provide here simulated data along with the Stan program.
+This directory contains some materials for the article "Modeling local dependence in latent vector autoregressive models" published by Biostatistics. Since the original data is not available, simulated data along with the Stan program are provided here.
 
 The directory contains:
-- Simulated data for the Simulation study 1, Scenario 1
+- Simulated data for the Simulation study 1, Scenario 1 (zip file)
 - Stan program
+
+For questions, please refer to trungdung.tran@kuleuven.be
