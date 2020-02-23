@@ -117,7 +117,7 @@ model{
 	theta6 ~ normal(mu_theta, sigma_theta);
 	theta7 ~ normal(mu_theta, sigma_theta);
 
-	mu_theta ~ normal(0, 10);
+	mu_theta ~ cauchy(0; 5);
 	sigma_theta ~ cauchy(0, 5);
 
 	lambda11 ~ normal(1, sigma_lambda);
